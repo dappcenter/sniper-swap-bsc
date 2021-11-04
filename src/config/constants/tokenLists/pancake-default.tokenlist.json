@@ -19,6 +19,14 @@
       "logoURI": "https://pancakeswap.finance/images/tokens/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
     },
     {
+      "name": "Sniper Token",
+      "symbol": "SNPR",
+      "address": "0x031f7e8a0f17746f797cb4f7c0f18e99dee2aa96",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "http://sniperswap.com/img/logo64.png"
+    },
+    {
       "name": "BUSD Token",
       "symbol": "BUSD",
       "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
