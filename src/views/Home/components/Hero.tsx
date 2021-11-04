@@ -76,7 +76,7 @@ const StarsWrapper = styled.div`
 `
 
 const imagePath = '/images/home/sniper/'
-const imageSrc = 'sniper'
+const imageSrc = 'money'
 
 const starsImage: CompositeImageProps = {
   path: '/images/home/sniper/',
@@ -107,7 +107,7 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading scale="xxl" color="secondary" mb="24px">
-            {t('Hold SNPR and earn monthly BUSD.')}
+            {t('Hold SNPR and earn BUSD.')}
           </Heading>
           <Heading scale="md" mb="24px">
             {t('Buy and hold SNPR token and earn monthly income, we distribute %50 of our earnings to SNPR holders monthly.')}
@@ -127,7 +127,7 @@ const Hero = () => {
           position="relative"
         >
           <BunnyWrapper>
-            <img src={`${imagePath}${imageSrc}.png`} srcSet={getSrcSet(imagePath, imageSrc)} alt={t('sniper')} />
+            <img src={`${imagePath}${imageSrc}.png`} srcSet={getSrcSet(imagePath, imageSrc)} alt={t('money')} />
           </BunnyWrapper>
           <StarsWrapper>
             <CompositeImage {...starsImage} />
