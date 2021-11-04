@@ -104,6 +104,7 @@ const WinSection = () => {
           <CompositeImage {...topRightImage} />
         </TopRightImgWrapper>
       </BgWrapper>
+
       <TransparentFrame isDark={theme.isDark}>
         <Flex flexDirection="column" alignItems="center" justifyContent="center">
           <ColoredWordHeading textAlign="center" text={t('Win millions in prizes')} />
@@ -130,6 +131,7 @@ const WinSection = () => {
           </Flex>
         </Flex>
       </TransparentFrame>
+      
     </>
   )
 }

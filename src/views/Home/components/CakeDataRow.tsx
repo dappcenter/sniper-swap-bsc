@@ -54,6 +54,7 @@ const CakeDataRow = () => {
 
   return (
     <Grid>
+
       <Flex flexDirection="column">
         <Text color="textSubtle">{t('Total supply')}</Text>
         {cakeSupply ? (
@@ -83,6 +84,7 @@ const CakeDataRow = () => {
 
         <Heading scale="lg">{t('%cakeEmissions%/block', { cakeEmissions: emissionsPerBlock })}</Heading>
       </StyledColumn>
+      
     </Grid>
   )
 }
