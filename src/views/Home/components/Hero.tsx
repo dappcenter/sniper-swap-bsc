@@ -110,7 +110,7 @@ const Hero = () => {
             {t('Hold SNPR and earn BUSD.')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('Buy and hold SNPR token and earn monthly income, we distribute %50 of our earnings to SNPR holders monthly.')}
+            {t('Buy and hold SNPR token to earn monthly income, we distribute %50 of our earnings to SNPR holders monthly.')}
           </Heading>
           <Flex>
             {!account && <ConnectWalletButton mr="8px" />}
