@@ -60,4 +60,4 @@ pm2 serve build 5000 --spa
 
 That is all 
 
-Live Sample : http://bsc.sniperswap.com:5000
+Live Sample : http://sniperswap.com
