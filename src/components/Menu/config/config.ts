@@ -18,7 +18,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       {
         label: t('Liquidity'),
         href: '/liquidity',
-        //type: DropdownMenuItemType.EXTERNAL_LINK,
+        // type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],
   },
