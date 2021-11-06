@@ -17,7 +17,15 @@ const Logo: React.FC<LogoProps> = ({ srcs, alt, ...rest }) => {
 
   if (src) {
     return (
-      <img src="http://sniperswap.com/img/logo1.png" alt="SniperSwap" width="100" height="32" />
+      <img
+        {...rest}
+        alt={alt}
+        src={src}
+        onError={() => {
+          if (src) BAD_SRCS[src] = true
+          refresh((i) => i + 1)
+        }}
+      />
     )
   }
 
