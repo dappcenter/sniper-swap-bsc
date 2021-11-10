@@ -26,7 +26,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   {
     label: t('Create Token'),
     icon: 'Token',
-    href: 'http://sniperswap.com/tokens/',
+    href: '/#',
     showItemsOnMobile: false,
     items: [
       {
