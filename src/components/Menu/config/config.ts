@@ -23,6 +23,20 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     ],
   },
 
+  {
+    label: t('Create Token'),
+    icon: 'Token',
+    href: 'http://sniperswap.com/tokens/',
+    showItemsOnMobile: false,
+    items: [
+      {
+        label: t('Create BEP20 Token'),
+        href: 'http://sniperswap.com/tokens/',
+        type: DropdownMenuItemType.EXTERNAL_LINK,
+      },
+    ],
+  },
+
 ]
 
 export default config
