@@ -31,7 +31,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     items: [
       {
         label: t('Create BEP20 Token'),
-        href: 'http://sniperswap.com/tokens/',
+        href: 'http://bep20.me/',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],
