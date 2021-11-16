@@ -31,6 +31,14 @@ export const mainnetTokens = {
     'SniperSwap Token',
     'https://sniperswap.com/',
   ),
+  flght: new Token(
+    MAINNET,
+    '0x1e5ea229e29e12d65c3c0b7fcf4bc0c502ce60a8',
+    18,
+    'FLGHT',
+    'The Flight',
+    'http://theflight.org/',
+  ),
   cake: new Token(
     MAINNET,
     '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
