@@ -78,3 +78,8 @@ export const useBNBBusdPrice = (): Price | undefined => {
   const bnbBusdPrice = useBUSDPrice(tokens.wbnb)
   return bnbBusdPrice
 }
+
+export const useSniperBusdPrice = (): Price | undefined => {
+  const sniperBusdPrice = useBUSDPrice(tokens.snpr)
+  return sniperBusdPrice
+}
