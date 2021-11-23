@@ -35,6 +35,94 @@
       "logoURI": "http://sniperswap.com/img/flght64.png"
     },
     {
+      "name": "RedFOX Labs",
+      "symbol": "RFOX",
+      "address": "0x0a3a21356793b49154fd3bbe91cbc2a16c0457f5",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/7654.png"
+    },
+    {
+      "name": "GameFi",
+      "symbol": "GAFI",
+      "address": "0x89Af13A10b32F1b2f8d1588f93027F69B6F4E27e",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11783.png"
+    },
+    {
+      "name": "DeRace",
+      "symbol": "DERC",
+      "address": "0x373e768f79c820aa441540d254dca6d045c6d25b",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/10744.png"
+    },
+    {
+      "name": "Decentral Games",
+      "symbol": "DG",
+      "address": "0x9fdc3ae5c814b79dca2556564047c5e7e5449c19",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/7798.png"
+    },
+    {
+      "name": "vEmpire DDAO",
+      "symbol": "VEMP",
+      "address": "0xedf3ce4dd6725650a8e9398e5c6398d061fa7955",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11423.png"
+    },
+    {
+      "name": "CryptoPlanes",
+      "symbol": "CPAN",
+      "address": "0x04260673729c5f2b9894a467736f3d85f8d34fc8",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/12815.png"
+    },
+    {
+      "name": "FaraLand",
+      "symbol": "FARA",
+      "address": "0xF4Ed363144981D3A65f42e7D0DC54FF9EEf559A1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9530.png"
+    },
+    {
+      "name": "Mogul Productions",
+      "symbol": "STARS",
+      "address": "0xbd83010eb60f12112908774998f65761cf9f6f9a",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/8996.png"
+    },
+    {
+      "name": "Revomon",
+      "symbol": "REVO",
+      "address": "0x155040625D7ae3e9caDA9a73E3E44f76D3Ed1409",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9200.png"
+    },
+    {
+      "name": "MILC Platform",
+      "symbol": "MLT",
+      "address": "0x4518231a8fdf6ac553b9bbd51bbb86825b583263",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9764.png"
+    },
+    {
+      "name": "Monsta Infinite",
+      "symbol": "MONI",
+      "address": "0x9573c88aE3e37508f87649f87c4dd5373C9F31e0",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11925.png"
+    },
+    {
       "name": "BUSD Token",
       "symbol": "BUSD",
       "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
