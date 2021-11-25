@@ -38,7 +38,7 @@ export const ADDITIONAL_BASES: { [chainId in ChainId]?: { [tokenAddress: string]
  */
 export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: Token[] } } = {
   [ChainId.MAINNET]: {
-    [FARA.address]: [SNPR]
+    // [FARA.address]: [SNPR]
   },
 }
 
