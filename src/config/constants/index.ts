@@ -12,7 +12,7 @@ type ChainTokenList = {
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.MAINNET]: [
     mainnetTokens.snpr,
-    mainnetTokens.wbnb,
+    // mainnetTokens.wbnb,
     mainnetTokens.busd,
     mainnetTokens.usdt,
     mainnetTokens.btcb,
@@ -28,7 +28,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
  * @example { [WBTC.address]: [renBTC], [renBTC.address]: [WBTC] }
  */
 export const ADDITIONAL_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: Token[] } } = {
-  [ChainId.MAINNET]: {},
+  [ChainId.MAINNET]: { },
 }
 
 /**
@@ -38,7 +38,7 @@ export const ADDITIONAL_BASES: { [chainId in ChainId]?: { [tokenAddress: string]
  */
 export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: Token[] } } = {
   [ChainId.MAINNET]: {
-     [FARA.address]: [SNPR]
+     // [FARA.address]: [SNPR]
   },
 }
 
