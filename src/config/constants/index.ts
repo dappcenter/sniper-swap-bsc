@@ -18,7 +18,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     mainnetTokens.btcb,
     // mainnetTokens.ust,
     // mainnetTokens.eth,
-    mainnetTokens.usdc,
+    mainnetTokens.fara,
   ],
   [ChainId.TESTNET]: [testnetTokens.wbnb, testnetTokens.cake, testnetTokens.busd],
 }
@@ -38,7 +38,7 @@ export const ADDITIONAL_BASES: { [chainId in ChainId]?: { [tokenAddress: string]
  */
 export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: Token[] } } = {
   [ChainId.MAINNET]: {
-    // [FARA.address]: [SNPR]
+     [FARA.address]: [SNPR]
   },
 }
 
