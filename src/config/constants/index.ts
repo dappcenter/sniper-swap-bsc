@@ -12,13 +12,13 @@ type ChainTokenList = {
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.MAINNET]: [
     mainnetTokens.snpr,
-    // mainnetTokens.wbnb,
+    mainnetTokens.wbnb,
     mainnetTokens.busd,
     mainnetTokens.usdt,
-    mainnetTokens.btcb,
+    // mainnetTokens.btcb,
     // mainnetTokens.ust,
     // mainnetTokens.eth,
-    mainnetTokens.fara,
+    // mainnetTokens.fara,
   ],
   [ChainId.TESTNET]: [testnetTokens.wbnb, testnetTokens.cake, testnetTokens.busd],
 }
@@ -44,7 +44,7 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
-  [ChainId.MAINNET]: [mainnetTokens.busd, mainnetTokens.snpr, mainnetTokens.btcb],
+  [ChainId.MAINNET]: [mainnetTokens.busd, mainnetTokens.snpr, mainnetTokens.wbnb],
   [ChainId.TESTNET]: [testnetTokens.wbnb, testnetTokens.cake, testnetTokens.busd],
 }
 
@@ -58,7 +58,8 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
   [ChainId.MAINNET]: [
     [mainnetTokens.snpr, mainnetTokens.wbnb],
     [mainnetTokens.busd, mainnetTokens.snpr],
-    // [mainnetTokens.usdt, mainnetTokens.snpr],
+    [mainnetTokens.wbnb, mainnetTokens.snpr],
+    [mainnetTokens.snpr, mainnetTokens.busd],
   ],
 }
 
