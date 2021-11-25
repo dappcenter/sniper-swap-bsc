@@ -38,7 +38,7 @@ export const ADDITIONAL_BASES: { [chainId in ChainId]?: { [tokenAddress: string]
  */
 export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: Token[] } } = {
   [ChainId.MAINNET]: {
-    // [FARA.address]: [SNPR],
+    [FARA.address]: [SNPR]
   },
 }
 
@@ -56,9 +56,9 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
-    [mainnetTokens.wbnb, mainnetTokens.snpr],
+    [mainnetTokens.snpr, mainnetTokens.wbnb],
     [mainnetTokens.busd, mainnetTokens.snpr],
-    [mainnetTokens.usdt, mainnetTokens.snpr],
+    // [mainnetTokens.usdt, mainnetTokens.snpr],
   ],
 }
 
