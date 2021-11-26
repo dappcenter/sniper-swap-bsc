@@ -131,6 +131,22 @@
       "logoURI": "https://pancakeswap.finance/images/tokens/0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
     },
     {
+      "name": "MOBOX",
+      "symbol": "MBOX",
+      "address": "0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9175.png"
+    },
+    {
+      "name": "APENFT",
+      "symbol": "NFT",
+      "address": "0x1fc9004ec7e5722891f5f38bae7678efcb11d34d",
+      "chainId": 56,
+      "decimals": 6,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9816.png"
+    },
+    {
       "name": "Tether USD",
       "symbol": "USDT",
       "address": "0x55d398326f99059fF775485246999027B3197955",
