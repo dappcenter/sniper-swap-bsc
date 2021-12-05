@@ -231,14 +231,6 @@ export const mainnetTokens = {
     'CryptoWar xBlade',
     'https://cryptowar.network/',
   ),
-  mbox: new Token(
-    MAINNET,
-    '0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377',
-    18,
-    'MBOX',
-    'MOBOX',
-    'https://www.mobox.io/',
-  ),
   rfox: new Token(
     MAINNET,
     '0x0a3a21356793b49154fd3bbe91cbc2a16c0457f5',
