@@ -1689,14 +1689,6 @@ export const mainnetTokens = {
     'Wrapped MASS Token',
     'https://massnet.org/en/',
   ),
-  rfox: new Token(
-    MAINNET,
-    '0x0a3A21356793B49154Fd3BbE91CBc2A16c0457f5',
-    18,
-    'RFOX',
-    'RFOX Token',
-    'https://www.redfoxlabs.io/',
-  ),
   xend: new Token(
     MAINNET,
     '0x4a080377f83D669D7bB83B3184a8A5E61B500608',
