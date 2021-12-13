@@ -107,10 +107,10 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading scale="xxl" color="secondary" mb="24px">
-            {t('Hold SNPR and earn BUSD.')}
+            {t('Premium Token Listing.')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('Buy and hold SNPR token to earn monthly income, we distribute %50 of our earnings to SNPR holders monthly.')}
+            {t('List your token in the front of SniperSwap users, for listing contact us support@sniperswap.com')}
           </Heading>
           <Flex>
             {!account && <ConnectWalletButton mr="8px" />}
