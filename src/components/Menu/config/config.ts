@@ -23,7 +23,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     ],
   },
 
-  {
+  /* {
     label: t('Create Token'),
     icon: 'Token',
     href: '/#',
@@ -35,7 +35,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],
-  },
+  }, */
 
 ]
 
