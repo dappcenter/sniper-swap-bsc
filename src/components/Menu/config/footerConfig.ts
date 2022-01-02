@@ -2,8 +2,8 @@ import { FooterLinkType } from '@pancakeswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 
 export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
-  {
-    /* label: t('Services'),
+  /* {
+     label: t('Services'),
     items: [
       {
         label: t('Solana Exchange'),
@@ -49,6 +49,6 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         href: 'https://github.com/SniperProject/sniper-swap-bsc/blob/develop/README.md',
       },
       
-    ], */
-  }, 
+    ], 
+  }, */
 ]
