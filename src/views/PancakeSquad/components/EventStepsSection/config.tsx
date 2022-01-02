@@ -51,17 +51,16 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         hasProfileActivated,
         eventStatus: [SaleStatusEnum.Pending, SaleStatusEnum.Premint],
       }),
-      title: t('Hold CAKE'),
-      bodyText: [t('Each NFT costs CAKE to mint. Remember you also need BNB to cover transaction fees too!')],
+      title: t('Hold SNPR'),
+      bodyText: [t('Each NFT costs SNPR to mint. Remember you also need BNB to cover transaction fees too!')],
       buttons: (
         <>
           <Button
             as="a"
-            href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
-            target="_blank"
+            href="http://sniperswap.com:5000/swap?outputCurrency=0x031f7e8a0f17746f797cb4f7c0f18e99dee2aa96"
             width="100%"
           >
-            {t('Buy CAKE')}
+            {t('Buy SNPR')}
           </Button>
         </>
       ),
