@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+  "repository": "https://github.com/SniperProject/sniper-swap-bsc/tree/develop/uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
